@@ -1,0 +1,167 @@
+header, footer {
+    background: linear-gradient( right, #f4a45d, #ffbf34); 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .left-side, .center, .right-side {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .left-side {
+    width: 30%;
+  }
+  
+  .center {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .right-side {
+    width: 30%;
+  }
+  
+  figure {
+    background-color: #f0f0f0; 
+    border: 1px solid #0f0e0e; 
+    border-radius: 8px; 
+    padding: 10px;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+    color: #333;
+  }
+  
+  footer {
+    clear: both; 
+    font-size: 0.8em; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  q {
+    font-weight: lighter; 
+    font-family: 'Noto Sans', sans-serif;
+    color: #f1f0f0; 
+    border: 1px solid #ccc;     
+    padding: 10px;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  ul {
+    list-style-type: none; 
+  }
+  
+  li a {
+    text-decoration: none; 
+    color: #333; 
+    line-height: 1.5em; 
+  }
+  
+  li a:hover {
+    color: #6c11ff; 
+  }
+  
+  label {
+    color: #555; 
+    font-variant: small-caps; 
+    font-weight: bold; 
+    display: block; 
+  }
+  
+  input, textarea, select {
+    width: 100%; 
+    padding: 10px;
+    margin: 5px 0 20px 0;
+  }
+  
+  button {
+    display: block;
+    width: 100%; 
+    padding: 10px;
+  }
+  
+#biography {
+    float: left;
+    width: 70%;
+}
+
+#video {
+    float: left;
+    width: 100%;
+}
+
+#main-section {
+    clear: both;
+}
+
+#other-section {
+    float: right;
+    width: 30%;
+}
+  @media (max-width: 768px) {
+    html {
+      font-size: 16px; 
+    }
+    .left-side, .center, .right-side, #biography, #other-section {
+      display: block; 
+      width: 100%; 
+    }
+  }
+  
+
+  html {
+    font: 20px/1.5 'Helvetica Neue', Arial, sans-serif; 
+    background-color: #fafafa; 
+  }
+  
+
+  body {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+  }
+
+  h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+#biography figure img {
+    border: 1px solid #0f0e0e; 
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+iframe {
+    border: 1px solid #0f0e0e;
+}
+
+#contact label {
+    color: #555; 
+    font-variant: small-caps; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+#contact input, #contact textarea, #contact select {
+    height: 2em;
+}
+
+main section {
+    margin-bottom: 20px;
+}
